@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: https://regard.com/onc-certification
+url: https://regard.com/onc-certification
+certifications:
+- ONC 2015 Cures Update (Health IT Module)
+- ISO 9001
+details:
+  product: Regard SaaS Solution v.1
+  onc_certification_number: 15.04.04.3192.Rega.01.00.0.240502
+  onc_certification_date: '2024-05-02'
+  onc_criteria: [B10, D1, D5, D12, D13, G4, G5]
+  cqms: ISO 9001
+notes: >-
+  Regard publishes an ONC 2015 Cures Update certification for its Health IT Module
+  (interoperability, EHI export, secure authentication) plus an ISO 9001 quality
+  management standard. No SOC 2, ISO 27001, HITRUST, or HIPAA attestation page,
+  security.txt, or bug-bounty program was found on the public site as of the probe date.
+evidence:
+- source: https://regard.com/onc-certification
+  keywords: [onc 2015 cures update, iso 9001, ehi export, health it module]

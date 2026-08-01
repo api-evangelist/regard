@@ -1,8 +1,28 @@
 aid: regard
 name: Regard
-description: 'Regard is a company surfaced as a portfolio company of foundry-group, techstars and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare-ai. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Regard is an AI-powered clinical diagnosis and documentation platform for hospitals and
+  health systems. It reviews 100% of a patient's electronic health record (EHR) to surface
+  and recommend evidence-supported diagnoses, then generates clinical documentation at the
+  point of care. Regard positions itself around "earning revenue through better care, not
+  queries," spanning clinical notes, mid-revenue-cycle denial prevention and revenue capture,
+  HCC risk-adjustment capture, and screening for care gaps. The company reports 12.9M+
+  recommended diagnoses accepted by clinicians and $50M+ in revenue generated for health
+  systems. Regard integrates directly with EHRs rather than exposing a public developer API;
+  its Health IT Module is ONC 2015 Cures Update certified. Backed by Foundry Group and
+  Techstars. This profile is maintained in the API Evangelist network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6a0437304c683d2c1726ea92/6a5561f29575eedbb1a4052e_regard_open_graph_1200_630.png
 url: https://raw.githubusercontent.com/api-evangelist/regard/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Healthcare Ai
+- Healthcare AI
+- Clinical Documentation
+- Clinical Decision Support
+- Electronic Health Records
+- Revenue Cycle Management
+- Health IT
+- Diagnosis
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +52,18 @@ maintainers:
 common:
 - type: Website
   url: https://regard.com
+- type: Blog
+  url: https://regard.com/resources/blog
+- type: PrivacyPolicy
+  url: https://regard.com/privacy-policy
+- type: Compliance
+  url: https://regard.com/onc-certification
+- type: TrustCenter
+  url: security/regard-trust-center.yml
+- type: DomainSecurity
+  url: security/regard-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
