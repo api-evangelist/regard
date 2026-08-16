@@ -33,7 +33,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-08-15'
 tags:
 - Company
 - Healthcare AI
@@ -62,8 +62,36 @@ common:
   url: security/regard-trust-center.yml
 - type: DomainSecurity
   url: security/regard-domain-security.yml
+- type: LLMsTxt
+  url: llms/regard-llms.txt
+- type: Conformance
+  url: conformance/regard-conformance.yml
+- type: Plans
+  url: plans/regard-plans-pricing.yml
 x-enrichment:
-  date: '2026-07-21'
+  date: '2026-08-15'
   status: minimal
-  artifacts_added: 2
+  artifacts_added: 4
   pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Regard sells an EHR-embedded clinical AI platform that CALLS hospital Epic,
+    Cerner and generic FHIR servers as a client; it ships no developer API of
+    its own — regard.com/openapi.json, /swagger.json, /api-docs and /docs all
+    404, api.regard.com and docs.regard.com do not resolve in DNS, and its ONC
+    Health IT Module certification omits the sec. 170.315(g)(10) standardized-API
+    criterion.
+  evidence:
+  - url: https://regard.com/openapi.json
+    status: 404
+  - url: https://regard.com/api-docs
+    status: 404
+  - url: https://regard.com/.well-known/agent-card.json
+    status: 404
+  - url: https://regard.com/llms.txt
+    status: 200
+  - url: https://regard.com/technology
+    status: 200
+  checked: '2026-08-15'
