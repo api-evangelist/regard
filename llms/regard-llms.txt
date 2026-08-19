@@ -1,0 +1,30 @@
+# Regard
+
+> Regard is an AI Clinical Insights Platform for health systems. It reviews 100% of the EHR to recommend diagnoses and generate documentation at the point of care — earning revenue through better care, not queries.
+
+## Main Pages
+
+- [Home](https://regard.com/): Overview of Regard's AI-powered clinical diagnosis and documentation platform
+- [Demo](https://regard.com/demo): Request a demo of the AI Clinical Insights Platform and see how Proactive Documentation closes the Clinical Insights Gap
+
+## Solutions
+
+- [Clinical Notes](https://regard.com/solutions/clinical-notes): Help clinicians write better notes faster — AI drafts documentation from the full chart before the encounter
+- [Mid-Revenue Cycle](https://regard.com/solutions/mid-revenue-cycle): Proactive Documentation that improves coding accuracy and reduces queries
+- [Population Health & HCC Capture](https://regard.com/solutions/hcc-capture): AI review of 100% of patient data to strengthen HCC capture and surface missed conditions
+- [Clinical Screening](https://regard.com/solutions/screening): Full-chart review to surface diagnoses and care opportunities earlier
+- [Close the HCC Gap](https://regard.com/hcc-gap): Surface missed diagnoses, improve risk adjustment capture, and protect population health revenue
+
+## Resources
+
+- [Blog & Insights](https://regard.com/resources/blog): Articles, case studies, and webinars on clinical AI, Proactive Documentation, and the Clinical Insights Gap
+- [Customer Stories](https://regard.com/resources/customers): How health systems use Regard to improve documentation quality, patient safety, and revenue
+- [Regard Summit 2027](https://regard.com/resources/regard-summit-2027): Event for healthcare leaders exploring clinical AI and the future of patient care
+- [News & Press](https://regard.com/media): Regard in the news, press releases on clinical AI and partnerships
+
+## Company
+
+- [About Us](https://regard.com/about-us): Regard's mission to bring world-class healthcare to everyone
+- [Careers](https://regard.com/careers): Join the team building AI-powered healthcare
+- [ONC Certification](https://regard.com/onc-certification): How Regard meets ONC Health IT certification requirements for secure, interoperable AI clinical documentation
+- [Privacy Policy](https://regard.com/privacy-policy): How Regard collects, uses, and protects personal and patient-related information

@@ -1,0 +1,80 @@
+generated: '2026-08-15'
+method: searched
+source: https://regard.com/technology
+docs:
+- https://regard.com/technology
+- https://regard.com/onc-certification
+note: >-
+  Regard is a CONSUMER of healthcare interoperability standards, not a publisher
+  of them. Its Intaker ingestion layer reads patient data out of hospital EHRs
+  over those systems' own FHIR APIs; Regard publishes no FHIR server, no
+  OpenAPI, and no third-party developer API of its own. The conformance claims
+  below are therefore about what Regard can READ and NORMALIZE, and are recorded
+  verbatim from Regard's own technology and certification pages. The ONC
+  certification criteria Regard holds (B10, D1, D5, D12, D13, G4, G5) do NOT
+  include the sec. 170.315(g)(10) standardized-API criterion, so there is no
+  certified patient- or population-services API on Regard's side.
+standards:
+- id: fhir
+  name: HL7 FHIR
+  conforms: true
+  role: client
+  evidence: >-
+    "3 FHIR versions supported natively (DSTU2, STU3, R4)" and "Pull patient
+    data from Epic, Cerner, and any FHIR server" — https://regard.com/technology
+  versions: [DSTU2, STU3, R4]
+- id: snomed-ct
+  name: SNOMED CT
+  conforms: true
+  role: terminology
+  evidence: >-
+    "Built on standards, extended by design: SNOMED, LOINC, RxNorm, ICD-10/11,
+    plus each hospital's proprietary code systems. Roughly 30 in all" —
+    https://regard.com/technology
+- id: loinc
+  name: LOINC
+  conforms: true
+  role: terminology
+  evidence: same technology-page statement as SNOMED CT
+- id: rxnorm
+  name: RxNorm
+  conforms: true
+  role: terminology
+  evidence: same technology-page statement as SNOMED CT
+- id: icd
+  name: ICD-10 / ICD-11
+  conforms: true
+  role: terminology
+  evidence: same technology-page statement as SNOMED CT
+- id: onc-2015-cures
+  name: ONC 2015 Edition Cures Update Health IT Module
+  conforms: true
+  role: certified-module
+  evidence: >-
+    Certification number 15.04.04.3192.Rega.01.00.0.240502, certified 2024-05-02,
+    criteria B10, D1, D5, D12, D13, G4, G5 — https://regard.com/onc-certification
+- id: iso-9001
+  name: ISO 9001
+  conforms: true
+  role: quality-management
+  evidence: listed on https://regard.com/onc-certification
+- id: onc-g10-standardized-api
+  name: ONC sec. 170.315(g)(10) Standardized API for Patient and Population Services
+  conforms: false
+  evidence: >-
+    Not among the criteria listed on https://regard.com/onc-certification;
+    Regard's Health IT Module is certified for EHI export and secure exchange,
+    not for serving a standardized FHIR API.
+- id: oauth2
+  name: OAuth 2.0
+  conforms: unknown
+  evidence: >-
+    "Each integration absorbs that vendor's own authentication, pagination, and
+    API behaviour" (https://regard.com/technology) — Regard authenticates AS a
+    client against EHR authorization servers; it publishes no authorization
+    server of its own (all /.well-known/oauth-* probes 404, see
+    well-known/regard-well-known.yml).
+- id: rfc9457
+  name: RFC 9457 Problem Details
+  conforms: false
+  evidence: no public API or OpenAPI is published, so no error envelope is observable

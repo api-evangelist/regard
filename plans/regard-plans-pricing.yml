@@ -1,0 +1,23 @@
+generated: '2026-08-15'
+method: searched
+source: https://regard.com/
+docs: https://regard.com/demo
+plan_count: 0
+currency: null
+note: >-
+  Regard publishes no pricing page and no plans. The site sitemap
+  (https://regard.com/sitemap.xml, HTTP 200) contains no /pricing entry and
+  https://regard.com/pricing returns HTTP 404. The only commercial path is
+  "Request a demo" (https://regard.com/demo), an enterprise sales form aimed at
+  health-system buyers. Regard is sold as an EHR-embedded platform under
+  negotiated health-system contracts, so there is no self-serve tier, no
+  published rate card and no per-call pricing to record. This is a measured
+  zero, not a gap in the probe.
+plans: []
+evidence:
+- url: https://regard.com/pricing
+  status: 404
+- url: https://regard.com/demo
+  status: 200
+- url: https://regard.com/sitemap.xml
+  status: 200

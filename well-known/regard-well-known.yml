@@ -1,0 +1,45 @@
+generated: '2026-08-15'
+method: probed
+source: live HTTP probes of every host named in apis.yml
+note: >-
+  Every /.well-known/ path probed on regard.com returned HTTP 404 with a
+  Webflow "Invalid .well-known request" stub, so NO WellKnown or SecurityTxt
+  pointer is wired in apis.yml — this file records a verified absence, not a
+  presence. The product host app.regard.com is a single-page application whose
+  catch-all answers HTTP 200 with the same HTML shell for every path
+  (including /openapi.json and /llms.txt); those 200s are recorded here as
+  soft-200 misses, not documents. api.regard.com, docs.regard.com,
+  developer.regard.com and portal.regard.com do not resolve in DNS.
+hosts:
+- host: https://regard.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://app.regard.com
+  note: SPA catch-all — HTTP 200 returns the application HTML shell, not a document
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    document: false
+    content_type: text/html
+  - path: /.well-known/openid-configuration
+    status: 200
+    document: false
+    content_type: text/html
+  - path: /.well-known/agent-card.json
+    status: 200
+    document: false
+    content_type: text/html
+found_documents: 0
