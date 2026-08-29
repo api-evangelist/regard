@@ -35,6 +35,8 @@ accessModel:
   method: derived
 image: https://cdn.prod.website-files.com/6a0437304c683d2c1726ea92/6a5561f29575eedbb1a4052e_regard_open_graph_1200_630.png
 url: https://raw.githubusercontent.com/api-evangelist/regard/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
