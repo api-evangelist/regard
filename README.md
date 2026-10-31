@@ -64,6 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Regard is a company surfaced as a portfolio company of foundry-group, techstars and added to the API Evangelist network as a stub for enrichment. Sector: healthcare-ai. This profile is a lead awaiting the enrichment pipeline.
+Regard is an AI-powered clinical diagnosis and documentation platform for hospitals and health systems. It reviews 100% of a patient's electronic health record (EHR) to surface and recommend evidence-supported diagnoses, then generates clinical documentation at the point of care. Regard positions itself around "earning revenue through better care, not queries," spanning clinical notes, mid-revenue-cycle denial prevention and revenue capture, HCC risk-adjustment capture, and screening for care gaps. The company reports 12.9M+ recommended diagnoses accepted by clinicians and $50M+ in revenue generated for health systems. Regard integrates directly with EHRs rather than exposing a public developer API; its Health IT Module is ONC 2015 Cures Update certified. Backed by Foundry Group and Techstars. This profile is maintained in the API Evangelist network.
 
-Backed by: foundry-group, techstars — https://regard.com
+**Areas:** Company · Healthcare AI · Clinical Documentation · Clinical Decision Support · Electronic Health Records · Revenue Cycle Management · Health IT · Diagnosis
+
+## Regard on APIs.io
+
+Everything profiled for Regard is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/regard/](https://apis.io/providers/regard/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Regard Domain Security](https://apis.io/security/regard/regard-domain-security/)
+- [Regard Trust Center](https://apis.io/security/regard/regard-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Regard Plans Pricing](https://apis.io/plans/regard/regard-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://regard.com)
+- [Blog](https://regard.com/resources/blog)
+- [Compliance](https://regard.com/onc-certification)
+- [Privacy policy](https://regard.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 14.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 26.3 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.6** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/regard/](https://apis.io/providers/regard/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Regard: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/regard/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
